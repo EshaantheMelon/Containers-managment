@@ -1,0 +1,373 @@
+html, body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+}
+
+footer {
+    clear:both;
+}
+
+header {
+    margin-bottom: -30px;
+}
+
+.header {
+    height: 100px;
+    padding-top: 5px;
+    background: #EDEBEC;
+    text-align: center;
+}
+
+
+.lang {
+    float: left;
+    margin-right: 10px;
+    padding-top: 17px;
+}
+
+.navbar-default {
+    background-color: #30A4D8;
+    border-bottom: 5px solid #1a6688;
+    border-radius: 0;
+}
+
+.navbar-nav > li > a {
+    line-height: 30px;
+    vertical-align: middle;
+    color: #dceff8;
+}
+
+.navbar-default .navbar-nav > li:hover,
+.navbar-default .navbar-nav > .active,
+.navbar-default .dropdown-menu li:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    cursor: default;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #dceff8;
+    font-weight: normal;
+    background-color: transparent;
+}
+
+/********/
+.navbar-default .dropdown-menu {
+    background-color: #30A4D8;
+    margin-top: -10px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.li:hover > .dropdown-menu,
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0px;
+    border-radius: 0;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*****/
+.info {
+    text-align: center;
+    height: 220px;
+    padding-top: 10px;
+    color: #000022;
+}
+
+.info h2 {
+    font-size: 30px;
+}
+
+.info_2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    background: #30A4D8;
+}
+
+.info_2 > .container > h4 {
+    color: #ffffff;
+}
+
+.info_2 .thumbnail {
+    border: 0;
+    padding: 0;
+}
+
+/*********************
+** Contact
+**********************/
+.contact .form {
+    background: #E9E7E8;
+    padding: 20px;
+    border: 1px solid #B8B2B5;
+    border-radius: 8px;
+}
+
+.contact .form-control, .select2-search input {
+    border: 1px solid #000;
+}
+
+/********************
+**   Tracking
+*********************/
+.tracking .track {
+    background: #E9E7E8;
+    padding: 20px;
+    border: 1px solid #B8B2B5;
+    border-radius: 8px;
+    word-break: break-all;
+}
+
+.tracking .users {
+    background: #FFFFFF;
+    border: 1px solid #C6C6C6;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: -10px;
+    margin-bottom: 20px;
+    color: #30A4D8;
+}
+
+.tracking i {
+    color: #1A6688;
+    font-size: 30px;
+    padding: 5px;
+}
+
+/********************
+**
+*********************/
+.pagination{
+    margin:0;
+    float: right;
+    background: #c0c0c0;
+}
+
+/********************
+**   footer
+*********************/
+footer {
+    margin-top: 20px;
+}
+
+footer .top,
+footer .top div{
+    background: #1A6688;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+}
+
+.s_network a {
+    margin: 7px 0 0 7px;
+}
+
+footer .bottom {
+    background: #30A4D8;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+
+
+
+
+
+
+/*************/
+/*************/
+/*************/
+.panel{
+    margin-bottom: 0px;
+}
+.chat-window{
+    bottom:0;
+    position:fixed;
+    float:right;
+    margin-left:10px;
+    right: 7%;
+}
+.chat-window > div > .panel{
+    border-radius: 5px 5px 0 0;
+}
+.icon_minim{
+    padding:2px 10px;
+}
+.msg_container_base{
+    background: #e5e5e5;
+    margin: 0;
+    padding: 0 10px 10px;
+    max-height:300px;
+    overflow-x:hidden;
+}
+.top-bar {
+    background: #666;
+    color: white;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.msg_receive{
+    padding-left:0;
+    margin-left:0;
+}
+.msg_sent{
+    padding-bottom:20px !important;
+    margin-right:0;
+}
+.messages {
+    background: white;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    max-width:100%;
+}
+.messages > p {
+    font-size: 13px;
+    margin: 0 0 0.2rem 0;
+}
+.messages > time {
+    font-size: 11px;
+    color: #ccc;
+}
+.msg_container {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.avatar {
+    position: relative;
+}
+.base_receive > .avatar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid #FFF;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.base_sent {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.base_sent > .avatar:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid white;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    box-shadow: 1px 1px 2px rgba(black, 0.2); // not quite perfect but close
+}
+
+.msg_sent > time{
+    float: right;
+}
+
+
+
+.msg_container_base::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+.btn-success {
+    color: #fff !important;
+    background-color: #2ecc71 !important;
+    border: none !important;
+    height: 35px !important;
+}
+
+
+#new_chat{
+    width: 100%;
+}
+
+.right {
+    margin-top: 80px;
+    background: #D9EDF7;
+    padding: 15px;
+    font-weight: normal;
+    border-radius: 5px;
+}
+
+.right p{
+    font-size: 16px;
+    color: #31708F;
+}
+
+footer p {
+font-size: 13px;
+}
+
+#chat_window_1{
+z-index:22;
+}
